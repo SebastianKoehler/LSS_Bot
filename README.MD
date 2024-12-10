@@ -1,0 +1,89 @@
+# Last Shelter: Survival Bot
+
+## Functionalities:
+- auto explore event days
+  - recognize gathering day
+    - explore the map for free plots
+    - recognize free plots (food, wood, iron, oil, diamonds, cash)
+    - auto send apcs out for gathering
+    - auto pull back apcs before reset
+    - auto use buff for increased gathering amount
+    - collect event rewards
+  - recognize building day
+    - search for appropriate buildings
+    - build appropriate buildings
+    - collect event rewards
+  - recognize tech day
+    - search for appropriate technology
+    - research appropriate technology
+    - collect event rewards
+  - recognize hero day
+    - use blue hero tickets
+    - use purple hero tickets
+    - use gold hero tickets
+    - exchange heroes for wisdom medals
+    - set appropriate heroes in storage building
+    - activate appropriate skills
+    - level up skills
+    - collect event rewards
+    - collect one-time-only-reward from new heroes
+  - recognize troop day
+    - auto train troops
+    - train fighters
+    - train shooters
+    - train vehicles
+    - auto upgrade troops (if research and option is given)
+    - auto enhance troops (if research and option is given)
+    - collect event rewards
+  - recognize KE on weekend
+    - auto choose gathering for weekend
+    - auto set 3 days shield on friday evening before reset
+  - auto heal all injured troops
+  - auto join/host rally
+    - host own rally (wendell) with appropriate level for strongest apcs
+    - detect new rallies for wendell and their level
+    - join new rallies if time is long enough
+  - auto kill zombies
+    - explore map for appropriate zombies
+    - detect appropriate zombies
+    - auto send out apcs with enough attack, 9/10 for appropriate zombies
+  - auto detect rapid production icon
+    - auto check for durability of the building, if 75% - 100%, use rapid production
+    - use rapid production, if possible
+    - detect damaged buildings
+      - auto repair damaged buildings
+  - auto check for daily quests
+    - detect typical daily quests
+    - handle typical daily quests
+    - collect reward for daily quests
+  - auto check for main quests
+    - collect reward for main quests
+  - auto check for alliance wages
+    - auto check for rewards for attendance
+    - auto check for rewards for contribution
+  - auto-detect open help requests from alliance members
+    - auto one-click-solution to handle requests
+  - auto check for normal and rare alliance gifts
+    - auto one-click-solution to collect normal gifts
+    - auto detect existing rare gifts
+      - aim for the collect button
+      - collect rare gifts
+  - auto check for sufficient amount of resources
+    - auto-detect insufficient amount of resources
+    - auto detect insufficient storage capabilities
+      - auto cancellation of the action
+    - auto check for upgrade of storage buildings
+    - auto check for box resources
+    - auto check for storage capabilities
+    - auto resource replenish
+  - auto detect incoming helicopter
+    - auto sell & exchange resources
+  - auto-detect amount of fuel in production buildings
+    - auto refill & restock production buildings if empty
+  - auto check for alliance technologies
+    - detect researchable technologies
+    - detect and consider recommendations
+    - check for x / 25 usable research actions (normal)
+      - auto research (normal)
+    - check for x / 50 usable research action (diamonds)
+      - auto research (diamonds), if option is activated

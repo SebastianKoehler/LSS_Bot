@@ -1,0 +1,7 @@
+# Python-Cache-Dateien
+*.pyc
+*.pyo
+__pycache__/
+
+.idea
+.venv
